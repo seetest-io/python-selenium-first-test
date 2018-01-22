@@ -1,0 +1,8 @@
+how to run python test: (only python 3.6 support selenium)
+1. Instal latest Python
+1. install selenium bindings:
+	- Start a command prompt at python installation folder
+	- Run the pip command as given below to install selenium
+	- pip install selenium.
+2. how to run unittest on python: (https://devguide.python.org/runtests/)
+	python -m unittest test_chrome test_firefox test_ie
