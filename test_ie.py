@@ -15,7 +15,7 @@ class TestIE(unittest.TestCase):
         self.dc['accessKey'] = ''
         # Specify the access key in order to run this test against the browser Grid
         self.dc['initialBrowserUrl'] = 'https://seetest.io'
-        self.driver = webdriver.Remote('http://mastercloud/wd/hub', self.dc)
+        self.driver = webdriver.Remote('https://cloud.seetest.io/wd/hub', self.dc)
 
     def test_ie(self):
         self.driver.get("https://seetest.io")

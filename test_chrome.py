@@ -15,7 +15,7 @@ class TestFirefox(unittest.TestCase):
         self.dc['browserName'] = 'chrome'
         # Specify the access key in order to run this test against the browser Grid
         self.dc['accessKey'] = ''
-        self.driver = webdriver.Remote('http://mastercloud/wd/hub', self.dc)
+        self.driver = webdriver.Remote('https://cloud.seetest.io/wd/hub', self.dc)
 
     def test_chrome(self):
         self.driver.get("https://seetest.io")
